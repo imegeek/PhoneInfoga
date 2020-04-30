@@ -10,10 +10,9 @@ echo -e "
 
 █ █▄░█ █▀ ▀█▀ ▄▀█ █░░ █░░ █ █▄░█ █▀▀
 █ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▄▄ █ █░▀█ █▄█ ▄ ▄ ▄"
-
+echo
 rm -rf phoneinfoga.sh
 sleep 5.0
-echo
 echo -e "\e[32m[*] This Script is written by ABHacker Official\e[39m"
 echo
 sleep 2.0
