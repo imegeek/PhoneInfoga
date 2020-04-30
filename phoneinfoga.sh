@@ -4,7 +4,7 @@
 # Copyright ©2020
 # Script follows here:
 
-echo -e"
+echo -e "
 ╭━━━┳╮          ╭━━╮  ╭━╮
 ┃╭━╮┃┃          ╰┫┣╯  ┃╭╯
 ┃╰━╯┃╰━┳━━┳━╮╭━━╮┃┃╭━┳╯╰┳━━┳━━┳━━╮
@@ -23,7 +23,7 @@ echo -e"
                       ╰━━╯"
 
 rm -rf phoneinfoga.sh
-sleep 2.0
+sleep 5.0
 echo
 echo -e "\e[32m[*] This Script is written by ABHacker Official\e[39m"
 echo
