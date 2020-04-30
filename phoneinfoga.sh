@@ -26,7 +26,7 @@ rm -rf PhoneInfoga
 rm -rf phoneinfoga
 git clone https://github.com/abhackerofficial/PhoneInfoga > /dev/null 2>&1 && cd PhoneInfoga > /dev/null 2>&1 && unzip PhoneInfoga > /dev/null 2>&1 && python3 -m pip install -r requirements.txt > /dev/null 2>&1
 rm -rf PhoneInfoga.zip
-rm -rf PhineInfoga.sh
+rm -rf phoneinfoga.sh
 chmod +x *
 sleep 2.0
 echo
