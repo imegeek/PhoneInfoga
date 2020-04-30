@@ -22,13 +22,6 @@
 
 <h4 align="center">Information gathering & OSINT reconnaissance tool for phone numbers</h4>
 
-<p align="center">
-  <a href="https://sundowndev.github.io/PhoneInfoga/">Documentation</a> •
-  <a href="https://sundowndev.github.io/PhoneInfoga/usage/">Basic usage</a> •
-  <a href="https://sundowndev.github.io/PhoneInfoga/resources/">OSINT resources</a> •
-  <a href="https://medium.com/@SundownDEV/phone-number-scanning-osint-recon-tool-6ad8f0cac27b">Related blog post</a>
-</p>
-
 ### How to install
 - <b>Silent installation:</b></br>
 Copy and paste the following command in Termux to silently install PhineInfoga Tool:<br/>
