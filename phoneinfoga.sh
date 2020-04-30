@@ -6,13 +6,13 @@
 
 rm -rf phoneinfoga.sh
 sleep 2.0
-echo -e "\033[1;92m"[*] This Script is written by ABHacker Official
+echo -e "\e[32m[*] This Script is written by ABHacker Official\e[39m"
 echo
 sleep 2.0
-echo -e "\033[1;36;40m"[*] PhoneInfoga Installing...
+echo -e "\e[32mPhoneInfoga Installing...\e[39m"
 sleep 2.0
 echo
-echo -e "\033[1;34m"[*] Please wait...
+echo -e "\e[32m[*] Please wait...\e[39m"
 sleep 2.0
 echo
 cd
@@ -29,7 +29,7 @@ rm -rf phoneinfoga.sh
 chmod +x *
 sleep 2.0
 echo
-echo -e "\033[1;36;40m"[*] PhoneInfoga Installed.
+echo -e "\e[32mPhoneInfoga Successfully Installed.\e[39m"
 sleep 2.0
 echo
 printf $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Press Enter To Exit: \e[0m'
