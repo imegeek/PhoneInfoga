@@ -6,7 +6,6 @@
 
 rm -rf phoneinfoga.sh
 sleep 2.0
-echo
 echo -e "\033[1;92m"[*] This Script is written by ABHacker Official
 echo
 sleep 2.0
