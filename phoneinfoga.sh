@@ -5,6 +5,7 @@
 # Script follows here:
 
 rm -rf phoneinfoga.sh
+echo
 sleep 2.0
 echo -e "\e[32m[*] This Script is written by ABHacker Official\e[39m"
 echo
@@ -20,7 +21,7 @@ echo -e "\e[32m[+] Required Packages Installing...\e[39m"
 apt update > /dev/null 2>&1 && apt --assume-yes upgrade > /dev/null 2>&1 && apt --assume-yes install python2 > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1 && apt --assume-yes install BeautifulSoup > /dev/null 2>&1 && apt --assume-yes install git > /dev/null 2>&1
 sleep 2.0
 echo
-echo -e "\e[32m[+] Required Packages Installed.echo\e[39m"
+echo -e "\e[32m[+] Required Packages Installed.\e[39m"
 rm -rf PhoneInfoga
 rm -rf phoneinfoga
 git clone https://github.com/abhackerofficial/PhoneInfoga > /dev/null 2>&1 && cd PhoneInfoga > /dev/null 2>&1 && unzip PhoneInfoga > /dev/null 2>&1 && python3 -m pip install -r requirements.txt > /dev/null 2>&1
