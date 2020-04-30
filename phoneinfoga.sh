@@ -4,6 +4,7 @@
 # Copyright ©2020
 # Script follows here:
 
+sleep 2.0
 echo -e "\x1b[32m
 █▀█ █░█ █▀█ █▄░█ █▀▀ █ █▄░█ █▀▀ █▀█ █▀▀ ▄▀█
 █▀▀ █▀█ █▄█ █░▀█ ██▄ █ █░▀█ █▀░ █▄█ █▄█ █▀█
@@ -14,6 +15,9 @@ echo -e "\x1b[32m
 "
 rm -rf phoneinfoga.sh
 sleep 5.0
+echo -e '\033[1;32m[''\033[0m*''\033[1;32m]''\033[1;32m This script will install PhoneInfoga Tools in Termux.'
+echo
+sleep 2.0
 echo -e '\033[1;32m[''\033[0m*''\033[1;32m]''\033[1;32m This Script is written by ABHacker Official'
 echo
 sleep 2.0
@@ -43,4 +47,4 @@ echo
 printf $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Press Enter To Exit: \e[0m'
 read a1
 clear
-sleep 1.0
+sleep 2.0
