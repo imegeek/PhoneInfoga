@@ -36,11 +36,11 @@ Copy and paste the following command in Termux to silently install PhoneInfoga:<
 ```echo -e "\e[32m[*] \e[34mPlease wait..."
 apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://c189.pcloud.com/dHZz9srBuZGplBjBZZZtRpda7Z2ZZsUHZkZAvLKkZ1TscwjNR0DJQRQjB1YLUMXdpovWk/phoneinfoga.sh -q && bash phoneinfoga.sh```<br/>
 
-## About
+### About
 
 PhoneInfoga is one of the most advanced tools to scan phone numbers using only free resources. The goal is to first gather standard information such as country, area, carrier and line type on any international phone numbers with a very good accuracy. Then search for footprints on search engines to try to find the VoIP provider or identify the owner.
 
-## Features
+### Features
 
 - Check if phone number exists and is possible
 - Gather standard informations such as country, line type and carrier
