@@ -22,9 +22,6 @@ sleep 2.0
 echo -e '\033[1;32m[''\033[0m*''\033[1;32m]''\033[1;32m This Script is written by ABHacker Official'
 echo
 sleep 2.0
-echo -e '\033[1;32m[''\033[0m*''\033[1;32m]''\033[1;32m PhoneInfoga Installing...'
-sleep 2.0
-echo
 echo -e '\033[1;32m[''\033[0m*''\033[1;32m]''\033[1;32m Please wait...'
 sleep 2.0
 echo
@@ -36,6 +33,9 @@ echo
 echo -e '\033[1;32m[''\033[0m*''\033[1;32m]''\033[1;32m Required Packages Installed.'
 rm -rf PhoneInfoga
 rm -rf phoneinfoga
+echo
+sleep 2.0
+echo -e '\033[1;32m[''\033[0m*''\033[1;32m]''\033[1;32m PhoneInfoga Installing...'
 git clone https://github.com/abhackerofficial/PhoneInfoga > /dev/null 2>&1 && cd PhoneInfoga > /dev/null 2>&1 && unzip PhoneInfoga > /dev/null 2>&1 && python3 -m pip install -r requirements.txt > /dev/null 2>&1 && pip2 install colorama > /dev/null 2>&1
 rm -rf PhoneInfoga.zip
 rm -rf phoneinfoga.sh
