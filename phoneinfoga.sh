@@ -13,8 +13,9 @@ echo -e "\x1b[32m
 █ █░▀█ ▄█ ░█░ █▀█ █▄▄ █▄▄ █ █░▀█ █▄█ ▄ ▄ ▄
 
 "
+termux-setup-storage
+sleep 7.0
 rm -rf phoneinfoga.sh
-sleep 5.0
 echo -e '\033[1;32m[''\033[0m*''\033[1;32m]''\033[1;32m This script will install PhoneInfoga Tool'
 echo
 sleep 2.0
