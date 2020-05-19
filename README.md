@@ -23,7 +23,7 @@
 <h4 align="center">Information gathering & OSINT reconnaissance tool for phone numbers</h4>
 
 ### How to install
-- <b>Silent installation:</b></br>
+- <b>Quick installation:</b></br>
 Copy and paste the following command in Termux to silently install PhineInfoga Tool:<br/>
 ```clear && echo -e '\033[1;32m[*] Download starting...' && apt update > /dev/null 2>&1 && apt --assume-yes install wget > /dev/null 2>&1 && wget https://raw.githubusercontent.com/abhackerofficial/PhoneInfoga/master/phoneinfoga.sh -q && clear && bash phoneinfoga.sh```<br/>
 
