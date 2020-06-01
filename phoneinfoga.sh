@@ -26,11 +26,17 @@ sleep 2.0
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Please wait...'
 sleep 2.0
 echo
-cd $HOME
-echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Required Packages Installing...'
-apt update > /dev/null 2>&1 && apt --assume-yes upgrade > /dev/null 2>&1 && apt --assume-yes install git > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1 && apt --assume-yes install python2 > /dev/null 2>&1 && apt --assume-yes install BeautifulSoup > /dev/null 2>&1 && apt --assume-yes install git > /dev/null 2>&1
-sleep 2.0
+echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Updating...'
 echo
+apt --assume-yes update > /dev/null 2>&1 && apt --assume-yes upgrade -y > /dev/null 2>&1
+echo
+echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Required Packages Installing...'
+echo
+command -v git > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require git but it's not installed, Now Installing.\e[1;92m"; pkg install git -y; echo; }
+command -v python > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python but it's not installed, Now Installing.\e[1;92m"; pkg install python -y; echo; }
+command -v python2 > /dev/null 2>&1 || { echo -e >&2 "\033[1;91mI require python2 but it's not installed, Now Installing.\e[1;92m"; pkg install python2 -y; echo; }
+
+sleep 2.0
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Required Packages Installed.'
 rm -rf PhoneInfoga > /dev/null 2>&1
 rm -rf phoneinfoga > /dev/null 2>&1
