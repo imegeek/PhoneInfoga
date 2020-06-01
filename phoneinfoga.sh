@@ -28,7 +28,7 @@ sleep 2.0
 echo
 cd $HOME
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Required Packages Installing...'
-apt update > /dev/null 2>&1 && apt --assume-yes upgrade > /dev/null 2>&1 && apt --assume-yes install git > /dev/null 2>&1 && apt --assume-yes install python2 > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1 && apt --assume-yes install BeautifulSoup > /dev/null 2>&1 && apt --assume-yes install git > /dev/null 2>&1
+apt update > /dev/null 2>&1 && apt --assume-yes upgrade > /dev/null 2>&1 && apt --assume-yes install git > /dev/null 2>&1 && apt --assume-yes install python > /dev/null 2>&1 && apt --assume-yes install python2 > /dev/null 2>&1 && apt --assume-yes install BeautifulSoup > /dev/null 2>&1 && apt --assume-yes install git > /dev/null 2>&1
 sleep 2.0
 echo
 echo -e '\033[1;92m[''\033[0m*''\033[1;92m]''\033[1;92m Required Packages Installed.'
