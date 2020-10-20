@@ -25,7 +25,7 @@
 ### How to install
 - <b>Quick installation:</b></br>
 Copy and paste the following command in Termux to quickly install PhoneInfoga Tool:<br/>
-```apt update &> /dev/null ;apt --assume-yes install git ;bash -c "$(curl -fsSL https://github.com/abhackerofficial/PhoneInfoga/raw/master/phoneinfoga.sh)"```<br/>
+```bash -c "$(curl -fsSL https://github.com/abhackerofficial/PhoneInfoga/raw/master/install.sh)"```<br/>
 
 ### About
 
